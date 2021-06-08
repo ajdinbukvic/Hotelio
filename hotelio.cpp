@@ -9,7 +9,7 @@
 ||				Ajdin Bukvic	            	||
 ||				Emir Zambakovic                 ||
 ||							    	||
-|| 			� 2021                                 ||	
+|| 			© 2021                                 	||	
 ||							    	||		
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
@@ -47,7 +47,7 @@ enum velicinaSobe {
     jednokrevetna=1,
     dvokrevetna,
     trokrevetna,
-	predsjednickiApartman
+    predsjednickiApartman
 };
 
 //enumeracija za poziciju radnika
@@ -228,7 +228,7 @@ void aktivnostBrisanje(dodatneAktivnosti*,int,string);
 //-------------------- >>> MAIN FUNKCIJA <<< ---------------------
 
 int main() {
-//	splashscreen();
+	splashscreen();
 	int izbor;
 	string korisnickoIme, sifra;
 	bool ispravnostKorisnik,ispravnostAdmin;
